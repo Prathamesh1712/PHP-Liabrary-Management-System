@@ -1,0 +1,87 @@
+<html>
+<style>
+input[type=text], select {
+  width: 29%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=password], select {
+  width: 29%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+body
+{
+background-color: white;
+}
+h1
+{
+text-align: center;
+color: orange;
+}
+.button 
+{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+width: 410px;
+
+}
+.button1 
+{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 20px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px; 
+
+}
+aa1
+{
+font-size: 50px;
+color: orange;
+font-family:comic sans ms;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: orange;
+   color: white;
+   font-family:comic sans ms;
+   text-align: center;
+}
+</style>
+<body>
+<center>
+<aa1>library management system</aa1>
+<br><br><br><br><br><br>
+<button class="button">User Login </button><br>
+<input type="text"   placeholder="Enter Email ID" name="n1" required><br>
+<input type="password" name="n1" placeholder="Enter Password" required><br>
+<button class="button">Login</button><br>
+<h3>New Here?<a href="Register.html" vlink="red"> Register Here</a></h3>
+
+</center>
+</body>
+</html>
